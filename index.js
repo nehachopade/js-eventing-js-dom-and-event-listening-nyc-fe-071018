@@ -8,9 +8,9 @@ main.addEventListener('click', (event) =>
   }
   )
 
-input.addEventListener('keydown',(event)=>
+input.addEventListener('keydown', (event) =>
 { if (event.which===71)
-    event.preventDefault();
+    event.preventDefault()
 })
 console.log(event
 ))
