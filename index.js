@@ -9,8 +9,9 @@ main.addEventListener('click', (event) =>
   )
 
 input.addEventListener('keydown', (event) =>
-{   if (event.which===71)
-      event.preventDefault();
+{   if (event.which === 71)}
+      event.preventDefault()
+      }
 })
 
 paragraph.addEventListener('click', (event) => 
