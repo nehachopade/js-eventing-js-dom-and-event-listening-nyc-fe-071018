@@ -1,6 +1,6 @@
 const main = document.querySelector('#main')
 const paragraph = document.querySelector('p')
-const inpur=document.selector('input')
+const input=document.selector('input')
 
 main.addEventListener('click', (event) =>
   {   alert('Hey you clicked me')
