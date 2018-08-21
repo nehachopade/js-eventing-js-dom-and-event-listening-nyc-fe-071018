@@ -1,6 +1,6 @@
 const main = document.querySelector('#main')
 const paragraph = document.querySelector('p')
-const input=document.selector('input')
+const input=document.queryselector('input')
 
 main.addEventListener('click', (event) =>
   {   alert('Hey you clicked me')
@@ -11,7 +11,7 @@ main.addEventListener('click', (event) =>
 input.addEventListener('keydown',(event)=>
 { if (event.which===71)
     event.preventDefault();
-}
+})
 console.log(event
 ))
 paragraph.addEventListener('click', (event) => 
