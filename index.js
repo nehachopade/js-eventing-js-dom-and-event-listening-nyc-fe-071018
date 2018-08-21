@@ -7,4 +7,8 @@ main.addEventListener('click', (event) =>
   }
   )
 
-paragraph.addEventListener('click', (event) => { alert ('You clicked a p')})
+paragraph.addEventListener('click', (event) => 
+{ 
+    alert ('You clicked a p')
+    paragraph.style.backgroundColor="Yellow"
+})
