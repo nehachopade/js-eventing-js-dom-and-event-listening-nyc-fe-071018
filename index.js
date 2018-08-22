@@ -21,7 +21,7 @@ paragraph.addEventListener('click', (event) =>
     paragraph.style.backgroundColor="Yellow"
 })
 
-let div = document.querySelectorAll('div')
+let divs = document.querySelectorAll('div')
 
 function bubble(event) {
   console.log(this.firstChild.nodeValue.trim() + ' bubbled')
